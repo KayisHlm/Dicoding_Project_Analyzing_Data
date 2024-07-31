@@ -29,8 +29,8 @@ st.write("""
 ## Data Gathering
 st.write('## Data Gathering')
 
-day_df = pd.read_csv('C:/Users/Kayis_Hlm/Desktop/Dicoding/PROJECT DICODING1/DATA/day.csv')
-hour_df = pd.read_csv('C:/Users/Kayis_Hlm/Desktop/Dicoding/PROJECT DICODING1/DATA/hour.csv')
+day_df = pd.read_csv('day.csv')
+hour_df = pd.read_csv('hour.csv')
 
 
 ### Menampilkan data day.csv
