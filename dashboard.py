@@ -3,27 +3,26 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
+# Sidebar
+with st.sidebar :
+    st.write('# Identitas')
+    st.write("""
+            - **Nama:** [Kayis Hilmi Farih]
+            - **Email:** [kayishilmi24@gmail.com]
+            - **ID Dicoding:** [Kayis Hilmi Farih]
+            """)
+    
+    st.write('# Daftar Pertanyaan')
+    st.write("""
+            1. Kapan waktu (jam) rata-rata peminjaman sepeda mencapai angka tertinggi ?
+            2. Bagaimana kenaikan terbanyak dan penurunan terbanyak jumlah peminjaman sepeda pada tahun 2012 ?
+            """)
+         
 st.title('ANALISIS DATA PENYEWAAN SEPEDA')
 st.write('###### Pada kesempatan kali ini, saya akan menyajikan hasil',
          'analisis data dengan menggunakan dua buah dataset, yaitu',
          "'day.csv' dan 'hour.csv'.")
-
-#=================Identitas=================#
-st.write("""
-        - **Nama:** [Kayis Hilmi Farih]
-        - **Email:** [kayishilmi24@gmail.com]
-        - **ID Dicoding:** [Kayis Hilmi Farih]
-        """)
-
-
-#=================Pertanyaan=================#
-st.write('## Daftar Pertanyaan')
-st.write("""
-    1. Kapan waktu (jam) rata-rata peminjaman sepeda mencapai angka tertinggi ?
-    2. Bagaimana kenaikan terbanyak dan penurunan terbanyak jumlah peminjaman sepeda pada tahun 2012 ?
-"""
-)
-
+    
 #=================Data Wrangling=================#
 
 ## Data Gathering
